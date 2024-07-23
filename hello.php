@@ -11,11 +11,4 @@
         $password,
         $dbname
     );
-
-    try{
-        $conn;
-        die("연결성공");
-    }catch(Excetpion $e){
-        die("연결오류 : ".mysqli_connect_error());
-    }
 ?>
